@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Body Styles */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, 
+body {  
+  clear:both;
+  /*height: 100%;*/
+  width: 100%;
+  font-family: 'Roboto';
+}
+ 
+html {
+  background: #222;
+}
+
+
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  /*Set body width to 0 before calls Velocity.js*/	
+  width: 0%;
+  height: .25rem;
+  background: #fff;
+  color: #222;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px auto;
+  padding-bottom: 1rem;
+  width: 960px;	
+  border-bottom: .25rem solid #222;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+
+/* nav */
+nav {
+	margin: 0 auto;
+	width: 960px;
+	height: 50px;
+}
+
+nav li {
+	float: left;
+} 
+
+nav a {
+	padding: 15px 65px;
+	color: #222;
+	text-decoration: none;
+	line-height: 50px;	
+	transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+	background-color: #222;
+	color: #fff;
+}
+
+.nav_contact .active_contact, 
+.nav_tutorial_1 .active_tutorial_1,
+.nav_tutorial_2 .active_tutorial_2,
+.nav_tutorial_3 .active_tutorial_3 {
+    background-color: #222;
+    color: #fff;
+}  
+
+*:focus {outline: none;}
+
+
+.content {
+	margin: 0 auto;
+  	width: 960px;	
+}
+
+.toturial-2 {
+    position: relative;
+    float: left;
+	margin-right: 15px;
+	width: 310px;
+	height: 350px;
+	background-color: #dcdcdc;
+}
+
+#myCanvas {
+    position: absolute;
+    left: 0;
+}
+
+span {
+    z-index: -1;
+    display: inline-block;
+}
+
+.toturial {
+	float: left;
+	margin-right: 15px;
+	width: 310px;
+	height: 350px;
+	background-color: #dcdcdc;
+}
+
+
+section:nth-of-type(3){
+	margin-right: 0;
+}
+
+section h2 {
+    margin-top: 40px;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.tutorial_3 {
+    margin: 0 auto;
+    padding: 0 150px;
+    text-align: left;
+    /*background-color: #dcdcdc; */
+    line-height: 1.6;
+}
+
+.tutorial_3 > div {
+    text-align: center;
+    /*background-color: #dcdcdc; */
+}
+
+.tutorial_2 {
+    position: relative;
+    margin: 0 auto;
+    width: 662px;
+    height: 352px;
+    border: 2px solid #222;
+    /*background-color: #dcdcdc; */
+}
+
+.my_contact {
+    padding: 35px 0 20px;
+    background-color: #dcdcdc;
+}
+
+.form {
+	text-align: left;
+}
+
+
+
+.hint {
+    color: #29931b;
+}
+
+.contact_form {
+    margin-left: 300px;
+    text-align: left;
+}
+
+.contact {
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+    background-color: #dcdcdc;
+}
+
+label, input, form ul, textarea {
+	margin: 10px 30px; 
+}
+
+textarea {
+    min-height: 150px; 
+}
+
+input, textarea {
+	width: 250px;
+	height: 36px;
+	border: 1px solid #222;
+	transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"] {
+	width: 100px;
+	height: 40px;
+    border: none;
+	background: #848484;
+    color: #fff;
+    letter-spacing: 0.1em;
+	transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+	background-color: #535353;
+}
+
+input:focus, textarea:focus  {
+	border: 1px solid #3498db;
+}
+
+footer {
+	bottom: 0;
+	left: 0;
+	margin: 50px auto;
+	width: 960px;	
+	border-top: .25rem solid #222;
+}
+
+
+.interactive_3d > img {
+    float: none;
+    max-width: 333px;
+    width: 40%;
+}
+
+.interactive_3d_tutorial > img {
+    float: none;
+    max-width: 333px;
+    width: 20%;
+}
+
+section a {
+    padding-bottom: .07em;
+    border-bottom: 1px solid #1a90b4;
+    color: #1a90b4;
+    text-decoration: none;
+}
+
+section a:hover,
+section a:focus,
+section a:active {
+   background-color: #f5f2f0;
+}
+
+.cover_wrap {
+    opacity: 0;
+}
+
+
+.code {
+    margin: o auto;
+    width: 660px;
+}
+
+.clearfix {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.wrap {
+  margin: 2rem auto 0;
+  min-width: 61.25rem;
+  max-width: 60%;
+  opacity: 0;
+}
+ 
+
